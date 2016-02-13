@@ -1,2 +1,2 @@
 # TNFCQuests
-Questlines for the TechNodefirmacraft Mudpack.
+Questlines for the TechNodefirmacraft Modpack.
