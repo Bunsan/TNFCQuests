@@ -601,7 +601,8 @@
       "x": 118,
       "y": 138,
       "icon": {
-        "id": "terrafirmacraft:item.FruitSapling"
+        "id": "terrafirmacraft:fruitTreeSapling"
+
       },
       "prerequisites": [
         "Stone Hoe"
@@ -614,7 +615,7 @@
           "items": [
             {
               "item": {
-                "id": "terrafirmacraft:item.FruitSapling"
+                "id": "terrafirmacraft:fruitTreeSapling"
               },
               "precision": "ORE_DICTIONARY"
             }
@@ -629,18 +630,18 @@
       ],
       "rewardchoice": [
         {
-          "id": "terrafirmacraft:item.FruitSapling"
+          "id": "terrafirmacraft:fruitTreeSapling"
         },
         {
-          "id": "terrafirmacraft:item.FruitSapling",
+          "id": "terrafirmacraft:fruitTreeSapling",
           "damage": 6
         },
         {
-          "id": "terrafirmacraft:item.FruitSapling",
+          "id": "terrafirmacraft:fruitTreeSapling",
           "damage": 2
         },
         {
-          "id": "terrafirmacraft:item.FruitSapling",
+          "id": "terrafirmacraft:fruitTreeSapling",
           "damage": 7
         }
       ]
