@@ -14,7 +14,7 @@
         {
           "type": "DETECT",
           "description": "Picking up sticks and rocks",
-          "longDescription": "Terrafirmacraft or TFC is a total conversion that changes most of the things we know about how to play Minecraft. The first thing you will want to do to survive is to go and find some sticks and rocks. Sticks and rocks can be found randomly on the ground and sticks also from breaking leaves on trees.",
+          "longDescription": "Terrafirmacraft or TFC is a total conversion that changes most of the things we know about how to play Minecraft. The first thing you will want to do to survive is to gather some sticks and rocks. Sticks and rocks can be found as debris on the ground. Either break or right click to pick up. Sticks can also be gathered by breaking leaves on trees. In TNFC sticks and rocks debris will slowly respawn. This can be turned off in TFCConfig file.",
           "items": [
             {
               "item": {
@@ -62,7 +62,7 @@
         {
           "type": "DETECT",
           "description": "Rocks into tool heads",
-          "longDescription": "To begin knapping a stone tool you need to have a stack of least 2 rocks. Use the andesite rocks provided, right click while they are in your hotbar to open the knapping interface. The patterns for knapping are available in NEI.",
+          "longDescription": "To begin knapping a stone tool you need to have a stack of least 2 rocks. Hold the rocks in your hand and right-click to open the knapping interface. Click the interface to remove squares to form the axe pattern. The patterns for knapping are available in NEI.",
           "items": [
             {
               "item": {
@@ -126,7 +126,7 @@
         {
           "type": "DETECT",
           "description": "Find a clay deposit",
-          "longDescription": "To find a clay deposits look for golden rod flowers growing on grass. Don\u0027t bother looking for clay in dry grass areas as clay needs water to form.",
+          "longDescription": "To find a clay deposits look for golden rod flowers growing on grass. Don\u0027t bother looking for clay in dry grass areas as clay needs rainfall above 250 (F3 menu will show the rainfall value) to form.",
           "items": [
             {
               "item": {
@@ -144,7 +144,7 @@
         {
           "type": "CRAFT",
           "description": "Small Pottery Items",
-          "longDescription": "You must have a stack of at least 5 clay in your hand to open up crafting GUI with right-click. The clay will not be consumed until you complete the task, so if you make a mistake just close the window and try again.",
+          "longDescription": "You must have a stack of at least 5 clay in your hand to open up the crafting GUI by right-clicking. The clay will not be consumed until you complete the task, so if you make a mistake just close the window and try again. The interface works the same as knapping and patterns can be found in NEI.",
           "items": [
             {
               "item": {
@@ -179,7 +179,7 @@
         {
           "type": "DETECT",
           "description": "Fire Pit Kiln",
-          "longDescription": "A pit kiln is made in a one block deep hole.  Each kiln requires 8 straw and 8 logs to fire. You can place a unfired clay object by shift clicking into the hole. After you have placed up to four small items or one large item, fill the pit with 8 straw and then 8 logs with right click. Light the logs with a fire starter or drop a torch onto the logs to start the kiln.",
+          "longDescription": "A pit kiln is made in a one block deep hole.  Each pit kiln requires 8 straw and 8 logs to fire. You can place an unfired clay object by shift right-clicking into the hole, they can be picked up by right-clicking with an empty hand. After you have placed up to four small items or one large item, fill the pit with 8 straw and then 8 logs by right-clicking each into the pit kiln. Light the logs with a fire starter or drop a torch onto the logs to start the kiln. Once the pit kiln is finished you can pick up the pottery objects by right-clicking them with an empty hand or break the pottery block. They can also be placed down by shift right-clicking the top of a block. Small vessels have many uses. First they expand your inventory. Right-clicking with a small vessel will open a 4 slot inventory. However some items are too big to fit in the vessels. Most importantly food stacks must be 80 oz or less to fit. Small vessels slow the decay rate of food by half and are used to melt your first metal. Jugs are used for drinking water and will be explained later. Large vessels are a portable liquid and item storage. Right-click to place the vessel on the ground to access the inventory. The tabs on top will change between liquid and item inventory. Click seal button retain the items when you pick up the vessel by breaking it. Large vessels are heavy and must be place on your back, slot is hidden to right of chest armour slot. Vessels also work as a large bucket. Right-clicking on a fluid block will pick up the fluid and automatically seal it. An unsealed empty large vessel placed on ground will collect rain water.",
           "items": [
             {
               "item": {
@@ -310,20 +310,20 @@
     {
       "name": "Food and Water",
       "description": "Food from the wilds.",
-      "x": 186,
-      "y": 85,
+      "x": 245,
+      "y": 61,
+      "bigicon": true,
       "icon": {
         "id": "minecraft:fish"
       },
       "prerequisites": [
-        "More on stone tools",
         "Pottery"
       ],
       "tasks": [
         {
           "type": "DETECT",
           "description": "Food",
-          "longDescription": "Food is a constant concern in TFC. In early days you will need to explore to find various wild food. Crops will randomly spawn in the world, but they may not be mature and so harvesting will only give you seeds. You\u0027ll need to decide if you have time to get a farm going or you want to come back later. You\u0027ll also find many wild animals that can provide meat. Remember only deer and pheasants can respawn...slowly. Cows, chickens, pigs, sheep and horses will only ever spawn on world generation. You\u0027ll also get very little meat from animals until you raise your butchery skill. So early game seaweed is a staple food. You\u0027ll find seaweed along the coasts in salt water, but the farther north you are the less likely you will see it. Harvest it by right clicking with a knife.",
+          "longDescription": "Food is a constant concern in TFC. In early days you will need to explore to find various wild food. Crops will randomly spawn in the world, but they may not be mature and so harvesting will only give you seeds. You\u0027ll need to decide if you have time to get a farm going or you want to come back later. You\u0027ll also find many wild animals that can provide meat. Remember only deer and pheasants can respawn...slowly. Cows, chickens, pigs, sheep and horses will only ever spawn on world generation. You\u0027ll also get very little meat from animals until you raise your butchery skill. So early game seaweed is a staple food. You\u0027ll find seaweed along the coasts in salt water, but the farther north you are the less likely you will see it. Harvest it by right clicking with a knife. In TNFC seaweed with slowly respawn. This can be disabled in the TFCConfig file.",
           "items": [
             {
               "item": {
@@ -337,7 +337,7 @@
         {
           "type": "DETECT",
           "description": "Drinkable Water",
-          "longDescription": "You need to keep yourself hydrated with fresh water. You can drink from any pond if it has cat of nine tails in it or from rivers and streams. Right click on fresh water, be sure you are targeting the block under or beside the water block. Sipping water is slow, but you can carry water in a jug. You can quickly fill a large amount of your hydration with a jug.",
+          "longDescription": "You need to keep yourself hydrated with fresh water. You can drink from any pond if it has cattails in it or from rivers and streams. Right click on fresh water, be sure you are targeting the block under or beside the water block. Sipping water is slow, but you can carry water in a jug. You can quickly fill a large amount of your hydration with a jug.",
           "items": [
             {
               "item": {
@@ -363,21 +363,20 @@
     {
       "name": "Understanding Food Basics",
       "description": "Where collect for our farm.",
-      "x": 185,
-      "y": 142,
+      "x": 144,
+      "y": 137,
       "icon": {
         "id": "terrafirmacraft:item.Rye Whole",
         "nbt": "{foodWeight:28.8f,foodDecay:-19.800676f,decayTimer:2763}"
       },
       "prerequisites": [
-        "Food and Water",
         "Stone Hoe"
       ],
       "tasks": [
         {
           "type": "DETECT",
           "description": "Crops",
-          "longDescription": "As you explore your world you will find more and more food. Berry bushes, fruit trees and crops. Mature crops will give both seed bags and a food item. The seed bag can then be planted on farmland and will slowly grow depending on a lot of factors. The food item that mature crops drop will have a weight and will decays over time causing the weight to go down. There are two shortcut keys for processing food. Hover over any food item and press D to trim decay off all food. Hover over a food item and press S to stack all of the food into max sized stacks. Decay can also be trimmed by placing food in crafting grid with a knife. If there is no decay then the food stack will be split in half. You process whole grains by crafting them with a knife giving grains and straw. It is best to store grains in this form as they have a slower decay rate. The grains can be used to feed animals or processed further to make bread. Get any seed bag to complete this quest.",
+          "longDescription": "As you explore your world you will find more and more food. Berry bushes, fruit trees and crops. Mature crops will give both seed bags and a food item. The seed bag can then be planted on farmland and will slowly grow depending on a lot of factors. The food item that mature crops drop will have a weight and will decays over time causing the weight to go down. There are two shortcut keys for processing food. Hover over any food item and press D to trim decay off all food. Hover over a food item and press S to stack all of the food into max sized stacks. Decay can also be trimmed by placing food in crafting grid with a knife. If there is no decay then the food stack will be split in half. You process whole grains by crafting them with a knife giving grains and straw. It is best to store grains in this form as they have a slower decay rate. The grains can be used to feed animals or processed further to make bread.Get any seed bag to complete this quest.",
           "items": [
             {
               "item": {
@@ -426,7 +425,7 @@
         {
           "type": "DETECT",
           "description": "Temporary lights",
-          "longDescription": "The firepit is used to craft torches, cook food and more. The firepit is made by throwing 3 sticks on the ground and lighting that block by right-clicking with the firestarter. If you are successful a firepit will appear. Throw a piece of straw down with the sticks to increase the odds of a firepit forming. Once you have the firepit is formed you will need to fuel it with logs, which can be placed in the left slots or by dropping on the firepit. You\u0027ll also need to protect your firepit from rain or it will go out. Things you want to heat go in the top rightmost slot and will drop down to one of the lower slots when complete. Place a stick in to make a torch. Torches are your early source of light, but they burn out over time or if they are exposed to rain. You can relight torches by right clicking it with a lit torch, you can craft more torches by right-clicking with a stick and extinguish them by right-clicking with anything other than a torch or stick. Crafting torches in firepits or forges gives 2 torches per stick or 1 from lighting from another torch. Although firepits won\u0027t light blocks on fire we don\u0027t suggest you walk on them.",
+          "longDescription": "The firepit is used to craft torches, cook food and more. The firepit is made by throwing 3 sticks on the ground and lighting that block by right-clicking with the firestarter. If you are successful a firepit will appear. Throw a piece of straw down with the sticks to increase the odds of a firepit forming. Once you have the firepit you will need to fuel it with logs or peat, which can be placed in the left slots or by dropping on the firepit. You\u0027ll also need to protect your firepit from rain or it will go out. Things you want to heat go in the top rightmost slot and will drop down to one of the lower slots when complete. Place a stick in to make a torch. Torches are your early source of light, but they burn out over time or if they are exposed to rain. You can relight torches by right clicking it with a lit torch, you can craft more torches by right-clicking with a stick and extinguish them by right-clicking with anything other than a torch or stick. Crafting torches in firepits or forges gives 2 torches per stick or 1 from lighting from another torch. Although firepits won\u0027t light blocks on fire we don\u0027t suggest you walk on them.",
           "items": [
             {
               "item": {
@@ -450,8 +449,8 @@
     {
       "name": "Hide Bed",
       "description": "To uncomfurtable to sleep on, but useful.",
-      "x": 72,
-      "y": 66,
+      "x": 97,
+      "y": 53,
       "icon": {
         "id": "minecraft:bed"
       },
@@ -494,8 +493,8 @@
     {
       "name": "Looking for metals",
       "description": "Where we learn to gather enough copper to make our first metal tools.",
-      "x": 236,
-      "y": 57,
+      "x": 265,
+      "y": 11,
       "icon": {
         "id": "terrafirmacraft:item.Small Ore"
       },
@@ -506,7 +505,7 @@
         {
           "type": "DETECT",
           "description": "Looking for Nuggets",
-          "longDescription": "To leave the stone age, you are going to need to find copper ore. There are three types of ore that produce copper when smelted, Native Copper, Malachite, and Tetrahedrite. The best way to get nuggets is to explore. Mark the locations where you find them as an ore vein will be nearby. Later you can use a prospector\u0027s pick to find the vein itself. A gold pan or sluice can be used as a last resort for getting the nuggets you need. This task will accept any of the 3 types of copper.",
+          "longDescription": "To leave the stone age, you are going to need to find copper ore. There are three types of ore that produce copper when smelted, Native Copper, Malachite, and Tetrahedrite. The best way to get nuggets is to explore. Mark the locations where you find them as an ore vein will be nearby. Later you can use a prospector\u0027s pick to find the vein itself. A gold pan or sluice can be used as a last resort for getting the nuggets you need. This task will accept any of the 3 types of copper. In TNFC the surface ore nuggets slowly respawn. This can be disabled in the TFCConfig file.",
           "items": [
             {
               "item": {
@@ -551,19 +550,20 @@
     {
       "name": "Stone Hoe",
       "description": "Where we learned how to use our new hoe",
-      "x": 124,
-      "y": 63,
+      "x": 134,
+      "y": 86,
       "icon": {
         "id": "terrafirmacraft:item.IgEx Stone Hoe"
       },
       "prerequisites": [
         "More on stone tools"
       ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "CRAFT",
           "description": "Hoes with extra modes",
-          "longDescription": "To start your farm you\u0027ll need to knap a hoe. With the hoe till grass, not dirt, to get a farmland block full of nutrient. Unlike vanilla farmland does not need water, but farmland hydrated with fresh water will help the crops grow faster. The stone hoe, using the mode change key, will also let you check if your farmland is hydrated and if the plant on it is ready to be harvested. As you harvest more mature crops your agriculture skill will raise. This increases your chance at getting extra seeds and will unlock information on the nutrients needed for different crops and found in farmland.",
+          "longDescription": "To start your farm you\u0027ll need to knap a hoe. With the hoe till grass, not dirt, to get a farmland block full of nutrient. Unlike vanilla farmland does not need water, but farmland hydrated with fresh water will help the crops grow faster. The stone hoe, using the mode change key, will also let you check if your farmland is hydrated and if the plant on it is ready to be harvested. As you harvest more crops your agriculture skill will raise. This increases your chance at getting extra seeds and will unlock information on the nutrients needed for different crops and found in farmland. The nutrient a crop needs will be shown as a tooltip on seed bags when you agriculture skill is high enough. Viewing the extra farmland information requires high enough skill and a metal hoe. As crops grow they will deplete their nutrient, which by default will be depleted just before the crop matures. But don't worry the nutrient will slowly replenish over time and the crops will mature. So it is wise to practice a little crop rotation to ensure your crops have what they need to grow. If you find sylvite you can make fertilizer, which will increase nutrient up to 2x their normal levels. This will ensure your crops don't run out of nutrients before maturing.",
           "items": [
             {
               "item": {
@@ -598,8 +598,8 @@
     {
       "name": "Fruit Trees",
       "description": "Apple. Orange you glad I didn\u0027t say Banana?",
-      "x": 65,
-      "y": 116,
+      "x": 118,
+      "y": 138,
       "icon": {
         "id": "terrafirmacraft:item.FruitSapling"
       },
@@ -610,7 +610,7 @@
         {
           "type": "DETECT",
           "description": "Getting a Sapling",
-          "longDescription": "An important food is fruit. Fruit trees are one of two sources of fruit in TFC. Unlike normal trees you get saplings by breaking the side cross branches with an axe or saw. They will regrow. Breaking any other branch will kill tree. Unlike other saplings once you place you can\u0027t pick them back up. So place carefully.",
+          "longDescription": "An important food is fruit. Fruit trees are one of two sources of fruit in TFC. Unlike normal trees you get saplings by breaking the side cross branches with an axe or saw. They will regrow. Breaking any other branch will kill tree. In TNFC placing a fruit tree sapling places a sapling, not a fruit tree trunk. In time the sapling will form a fruit tree trunk and grown into a fruit tree. In TNFC you can also place fruit tree saplings in flower pots. Once they become a fruit tree trunk you can\u0027t pick them back up.",
           "items": [
             {
               "item": {
@@ -648,8 +648,8 @@
     {
       "name": "Berry Bushes",
       "description": "Decorative and functional.",
-      "x": 117,
-      "y": 123,
+      "x": 91,
+      "y": 138,
       "icon": {
         "id": "terrafirmacraft:BerryBush",
         "damage": 3
@@ -661,7 +661,7 @@
         {
           "type": "DETECT",
           "description": "Find a Berry Bush",
-          "longDescription": "Berry bushes can be found throughout your world. There is no tool or trick to collect them, but they do need to be planted on grass. This task accepts any berry bush.",
+          "longDescription": "Berry bushes can be found throughout your world. There is no tool or trick to collect them, but they do need to be planted on grass. In TNFC berry bushes slowly respawn. This can be disabled in the TFCConfig file.. This task accepts any berry bush.",
           "items": [
             {
               "item": {
@@ -701,20 +701,21 @@
     {
       "name": "Salad Bar",
       "description": "Don\u0027t drop the bowl.",
-      "x": 248,
-      "y": 14,
+      "x": 187,
+      "y": 85,
       "icon": {
         "id": "terrafirmacraft:item.Salad",
         "nbt": "{foodWeight:0.0f,foodDecay:0.0f,FG:[-1,-1,-1,-1,],decayTimer:2161}"
       },
       "prerequisites": [
-        "Pottery"
+        "Pottery",
+        "Stone Hoe"
       ],
       "tasks": [
         {
           "type": "DETECT",
           "description": "You Don\u0027t Win Friends with...",
-          "longDescription": "Eating each food category seperately is not efficient. By eating salads you not only combine multiple food groups, you gain saturation and will slow how quickly levels of food groups not in salad decrease. To make a salad you need a food prep surface. Right-click the top of any solid block with a knife to create a food surface. Enter the GUI to make your salad. You can have a food group twice, but each ingredient must be unique. Salads are 20oz of food.",
+          "longDescription": "Eating each food category separately is not efficient. By eating salads, you not only combine multiple food groups, you gain saturation and will slow how quickly levels of food groups not in salad decrease. To make a salad you need a food prep surface. Right-click the top of any solid block with a knife to create a food surface. Enter the GUI to make your salad. You can have a food group twice, but each ingredient must be unique. Salads are 20 oz of food.",
           "items": [
             {
               "item": {
@@ -739,5 +740,5 @@
       ]
     }
   ],
-  "reputation": []
+  "reputationBar": []
 }

@@ -4,9 +4,10 @@
   "quests": [
     {
       "name": "Bloomery",
-      "description": "Where we learned the secret to smelting iron.",
-      "x": 39,
-      "y": 14,
+      "description": "Where we learn the secret to smelting iron.",
+      "x": 22,
+      "y": 15,
+      "bigicon": true,
       "icon": {
         "id": "terrafirmacraft:item.Raw Iron Bloom",
         "damage": 400
@@ -18,7 +19,7 @@
         {
           "type": "CRAFT",
           "description": "Making a bloomery",
-          "longDescription": "To make wrought iron you will need to make a bloomery. First you need to craft a bloomery block, which is crafted with 8 bronze double sheets of any type. A bloomery is a multiblock structure. To build it place a 3x3 set of bricks on the ground, then build up one but leave in the inside and one outside block free. Next add one block on each cardinal side (nswe). This is the smallest build for a bloomery. To make it larger you can increase it\u0027s height two blocks. See the TFC wiki for diagrams.",
+          "longDescription": "To make wrought iron you will need to make a bloomery. First you need to craft a bloomery block, which is crafted with 8 bronze double sheets of any type (Yes you can mix and match the different bronzes). A bloomery is a multiblock structure. To build it place a 3x3 set of bricks on the ground, then build up one but leave the inside and one outside block free. Next add one block on each cardinal side (nswe). This is the smallest build for a bloomery. To make it larger you can increase it\u0027s height two blocks. See the TFC wiki for diagrams.",
           "items": [
             {
               "item": {
@@ -30,7 +31,7 @@
         {
           "type": "DETECT",
           "description": "Bloom",
-          "longDescription": "Place 8 charcoal in the bottom then throw an 8 ore pieces (regardless of quality) and 8 charcoal down the chimney. You can add an additional 8 ore and charcoal per extra layer for a total of 24 pieces. Afterwards light the bloomery block with a fire-starter or flint and steel. In a few hours you will have a raw bloom, which your harvest with a pick axe.",
+          "longDescription": "Place 8 charcoal in the bottom. Then throw 8 ore pieces (regardless of quality) and 8 charcoal down the chimney. You can add an additional 8 ore and charcoal per extra layer for a total of 24 pieces. Afterwards light the bloomery block with a firestarter or a flint and steel. In a few hours you will have a raw bloom, which your harvest with a pick axe.",
           "items": [
             {
               "item": {
@@ -44,7 +45,7 @@
         {
           "type": "DETECT",
           "description": "Working the bloom",
-          "longDescription": "Once you have a raw bloom from the bloomery, the first step is to heat it up in your forge until it is hot enough to be worked in a bronze anvil. After this hammer the bloom into a refined bloom. Next you will need to split the bloom. The last step is to either hammer each 100 unit bar into a wrought iron bar or to melt them down in the crucible.",
+          "longDescription": "Once you have a raw bloom from the bloomery, the first step is to heat it up in your forge until it is hot enough to be worked in a bronze anvil. After this hammer the bloom into a refined bloom. Next you will need to split the bloom. The last step is to either hammer each 100 unit bar into a wrought iron bar or to melt them down in the crucible. Do not melt the refined bloom greater than 100% as it will only give you 100 units loosing the rest.",
           "items": [
             {
               "item": {
@@ -85,7 +86,7 @@
     },
     {
       "name": "Bellows",
-      "description": "Where we learned how to make the forge hotter",
+      "description": "Where we learn how to make the forge hotter",
       "x": 22,
       "y": 131,
       "icon": {
@@ -97,8 +98,8 @@
       "tasks": [
         {
           "type": "CRAFT",
-          "description": "Blowing alot of hot air",
-          "longDescription": "The bellows can be placed next to a firepit, forge or blast furnace. Face the direction you want it to face to place. It must be placed on top of a solid block. Right clicking will increase the heat temporarily at the cost of fuel. This does not increase the rate items heat or process in the Blast furnace.",
+          "description": "Blowing A Lot of Hot Air",
+          "longDescription": "The bellows can be placed next to a firepit, forge, or blast furnace. Face the direction you want the air to blow. It must be placed on top of a solid block. Right-clicking will increase the heat temporarily at the cost of fuel. This does not increase the rate items heat in the forge or process in the Blast furnace.",
           "items": [
             {
               "item": {
@@ -120,7 +121,7 @@
     },
     {
       "name": "Crucible",
-      "description": "Where we learned that we can melt metals over a forge.",
+      "description": "Where we learn that we can melt metals over a forge.",
       "x": 21,
       "y": 170,
       "icon": {
@@ -146,8 +147,8 @@
         },
         {
           "type": "DETECT",
-          "description": "Advanced metal melting",
-          "longDescription": "The crucible can be placed on top of your forge. When heated up you can place most metals inside to melt them. This is useful for mixing alloys.",
+          "description": "Advanced Smelting",
+          "longDescription": "The crucible can be placed on top of your forge. When heated up you can place most metals inside to melt them. This is useful for mixing alloys. Some metals will require a bellows to get the crucible temperature hot enough.",
           "items": [
             {
               "item": {
@@ -170,10 +171,10 @@
       ]
     },
     {
-      "name": "Black Steel",
-      "description": "Where we learned to make steel stronger",
+      "name": "Black Steel: Steeling an ingot",
+      "description": "Where we learn to make steel stronger and math harder.",
       "x": 231,
-      "y": 12,
+      "y": 18,
       "icon": {
         "id": "terrafirmacraft:item.Black Steel Ingot"
       },
@@ -184,7 +185,7 @@
         {
           "type": "DETECT",
           "description": "Weak Steel",
-          "longDescription": "To make black steel you will need to start by making weak steel in a crucible. Weak steel is an unrefined alloy of steel, nickel, and black bronze. Use NEI to see the ratios. To make single ingot of black steel, you will also need to get a pig iron ingot to weld to the weak steel ingot.",
+          "longDescription": "To make black steel you will need to start by making weak steel in a crucible. Weak steel is an unrefined alloy of steel, nickel, and black bronze. Use NEI to see the ratios. To make a single ingot of black steel, you will also need to have a pig iron ingot to weld to the weak steel ingot.",
           "items": [
             {
               "item": {
@@ -202,7 +203,7 @@
         },
         {
           "type": "DETECT",
-          "description": "Refine the black steel",
+          "description": "1+1=1? Refine the black steel",
           "longDescription": "Now you need to weld the pig iron and the weak steel ingots together. After this it needs to be worked on your anvil to remove impurities.",
           "items": [
             {
@@ -244,9 +245,9 @@
     },
     {
       "name": "Blue Steel",
-      "description": "Where we learned to make heat resistant steel",
-      "x": 291,
-      "y": 12,
+      "description": "Where we learn to make heat resistant steel",
+      "x": 266,
+      "y": 80,
       "icon": {
         "id": "terrafirmacraft:item.Blue Steel Ingot"
       },
@@ -257,7 +258,7 @@
         {
           "type": "DETECT",
           "description": "Weak Blue Steel",
-          "longDescription": "To make blue steel you will need to start by making weak blue steel in a crucible. Weak blue steel is an alloy of black steel, bismuth bronze, sterling silver, and steel. Use NEI to see the ratios. To make single ingot of blue steel, you will also need to get a black steel ingot to weld to the weak blue steel ingot.",
+          "longDescription": "To make blue steel you will need to start by making weak blue steel in a crucible. Weak blue steel is an alloy of black steel, bismuth bronze, sterling silver, and steel. Use NEI to see the ratios. To make a single ingot of blue steel, you will also need to have a black steel ingot to weld to the weak blue steel ingot.",
           "items": [
             {
               "item": {
@@ -320,9 +321,9 @@
     },
     {
       "name": "Red Steel",
-      "description": "Where we learned to make currosition and pressure resistant steel",
-      "x": 231,
-      "y": 45,
+      "description": "Where we learn to make corrosion and pressure resistant steel.",
+      "x": 200,
+      "y": 78,
       "icon": {
         "id": "terrafirmacraft:item.Red Steel Ingot"
       },
@@ -333,7 +334,7 @@
         {
           "type": "DETECT",
           "description": "Weak Red Steel",
-          "longDescription": "To make red steel you will need to start by making weak red steel in a crucible. Weak red steel is an alloy of black steel, rose gold, brass, and steel. Use NEI to see the ratios. To make single ingot of red steel, you will also need to get a black steel ingot to weld to the weak red steel ingot.",
+          "longDescription": "To make red steel you will need to start by making weak red steel in a crucible. Weak red steel is an alloy of black steel, rose gold, brass, and steel. Use NEI to see the ratios. To make a single ingot of red steel, you will also need to have a black steel ingot to weld to the weak red steel ingot.",
           "items": [
             {
               "item": {
@@ -396,9 +397,9 @@
     },
     {
       "name": "Blast Furnace",
-      "description": "Where we learned to smelt iron at higher temperatures to make pig iron",
-      "x": 183,
-      "y": 11,
+      "description": "Where we learn to smelt iron at higher temperatures to make pig iron",
+      "x": 134,
+      "y": 17,
       "icon": {
         "id": "terrafirmacraft:Bloomery"
       },
@@ -409,7 +410,7 @@
         {
           "type": "CRAFT",
           "description": "Blast furnace ",
-          "longDescription": "The blast furnance is a multiblock structure used to turn iron ore into pig iron�?.",
+          "longDescription": "The blast furnace is a multi-block structure used to turn iron ore into pig iron.",
           "items": [
             {
               "item": {
@@ -421,7 +422,7 @@
         {
           "type": "DETECT",
           "description": "Building the Chimney",
-          "longDescription": "The first part of the blast furnace you will need to build is its chimney. To start place four fire brick blocks in a cross shape around an empty block. Make sure to leave two blocks empty underneath where the blast furnace and crucible will go. Next Place a wrought iron sheet on each side of the chimney blocks other than the top or bottom. You can extend the size of the chimney up to 6 high.",
+          "longDescription": "The first part of the blast furnace you will need to build is its chimney. To start place four fire brick blocks in a cross shape around an empty block. Make sure to leave two blocks empty underneath where the blast furnace and crucible will go. Next Place a wrought iron sheets on each outer face of the fire brick blocks. You can extend the size of the chimney up to 6 high.",
           "items": [
             {
               "item": {
@@ -440,7 +441,7 @@
         {
           "type": "DETECT",
           "description": "Running the furnace",
-          "longDescription": "To finish the blast furnace place a crucible and the blast furnace on top, one block bellow the chimney. Next put a bellows pointing towards the blast furnace. Remember you need to place the bellows on a solid block. You will also need a tuyere, which is placed in the blast furnace GUI. The blast furnace will heat, but you will be unable to pump the pig iron out without it. The tuyere is smithed from a double metal sheet. Any kind will do. Now drop 4 charcoal, 4 iron ore, and 4 flux powder into the chimney. Light the blast furnace. Keep an eye on the blast furnace and add more charcoal if its level drops below the ore in the GUI. There is no need to pump the bellows until the pig iron has formed, you\u0027ll need to figure out when that is. Once the pig iron is formed you can pump the bellows to allow the pig iron to flow through the tuyere into the crucible.",
+          "longDescription": "To finish the blast furnace, place a crucible and the blast furnace on top, one block below the chimney. Next put a bellows pointing towards the blast furnace. Remember you need to place the bellows on a solid block. You will also need a tuyere, which is placed in the blast furnace GUI. The blast furnace will melt iron into pig iron, but you will be unable to pump the pig iron out without the tuyere. The tuyere is smithed from a double metal sheet. Any kind will do. Now drop 4 charcoal, 4 iron ore, and 4 flux powder per layer into the chimney. Light the blast furnace. Keep an eye on it and add more charcoal if its level drops below the ore level in the GUI. There is no need to pump the bellows until the pig iron has formed, you\u0027ll need to figure out when that is. Once the pig iron is formed you can pump the bellows to allow the pig iron to flow through the tuyere into the crucible. Hint have an ingot mold in there ready.",
           "items": [
             {
               "item": {
@@ -458,7 +459,7 @@
         {
           "type": "DETECT",
           "description": "Processing the Pig Iron",
-          "longDescription": "Now that you have a crucible full of pig iron, you will need to process it. Like with iron, you will need to pour out the iron from the crucible into a ingot mold. It is best to start pouring ingots while pumping the pig iron into the crucible. When the pig iron is solid, but still hot enough, hammer out the impurities on your anvil.",
+          "longDescription": "Now that you have a crucible full of pig iron, you will need to process it. Like with iron, you will need to pour the pig iron from the crucible into an ingot mold. It is best to start pouring ingots while pumping the pig iron into the crucible. When the pig iron is solid, but still hot enough, hammer out the impurities on your anvil...twice.",
           "items": [
             {
               "item": {
@@ -497,9 +498,9 @@
     },
     {
       "name": "Metal Buckets",
-      "description": "Where we learned to make a bucket that can carry lava",
-      "x": 291,
-      "y": 47,
+      "description": "Where we learn to move lava",
+      "x": 266,
+      "y": 124,
       "icon": {
         "id": "terrafirmacraft:item.Blue Steel Bucket Empty"
       },
@@ -550,8 +551,8 @@
     {
       "name": "Shears",
       "description": "More than just wool",
-      "x": 20,
-      "y": 69,
+      "x": 24,
+      "y": 75,
       "icon": {
         "id": "terrafirmacraft:item.shears"
       },
@@ -616,8 +617,8 @@
     {
       "name": "The grill",
       "description": "Advanced cooking",
-      "x": 87,
-      "y": 67,
+      "x": 53,
+      "y": 75,
       "icon": {
         "id": "terrafirmacraft:Grill"
       },
@@ -628,7 +629,7 @@
         {
           "type": "DETECT",
           "description": "Parallel Cooking",
-          "longDescription": "The grill allows you to cook more than one food item at once, but each item must be less than 80 oz. To setup the grill, place directly on a forge. Alternatively place a 2 brick high pillar on the left and right of a firepit. Then place the grill directly on the pit.",
+          "longDescription": "The grill allows you to cook more than one food item at once. Normally each item must be less than 80 oz, but in TNFC you can cook a full 160 oz. To setup the grill, place directly on a forge. Alternatively place a 2 brick high pillar on the left and right of a firepit. Then place the grill directly on the pit.",
           "items": [
             {
               "item": {
@@ -665,7 +666,7 @@
     },
     {
       "name": "Non-tool making Alloys",
-      "description": "Where we learned of a few more alloys that we may need later but cannot be used for making tools",
+      "description": "Where we learn of a few more alloys that we may need later but cannot be used for making tools",
       "x": 53,
       "y": 170,
       "icon": {
@@ -691,7 +692,7 @@
         {
           "type": "DETECT",
           "description": "Rose Gold",
-          "longDescription": "Rose gold is an alloy of gold and copper. It can be mixed in a crucible or pit kiln. The ratio is between 70% and 85% gold and between 15% and 30% copper. ",
+          "longDescription": "Rose gold is an alloy of gold and copper. It can be mixed in a crucible or pit kiln. The ratio is between 70% and 85% gold and between 15% and 30% copper. You can craft rose gold into an anvil. This exists to allow progression when ingredients to make bronzes are very limited.",
           "items": [
             {
               "item": {
@@ -745,8 +746,8 @@
     },
     {
       "name": "Steel furnace",
-      "description": "Where we learned of advanced smelting technology",
-      "x": 138,
+      "description": "Where we learn of advanced smelting technology",
+      "x": 135,
       "y": 74,
       "icon": {
         "id": "minecraft:furnace"
@@ -758,7 +759,7 @@
         {
           "type": "CRAFT",
           "description": "Steel furnace",
-          "longDescription": "Now that we know how to make steel we can make a furnace to handle tasks like smelting cobblestone and firing clay.",
+          "longDescription": "Now that we know how to make steel we can make a furnace to handle tasks like making glass, charcoal, firing clay, etc..",
           "items": [
             {
               "item": {
@@ -792,9 +793,9 @@
     },
     {
       "name": "Red Buckets",
-      "description": "Where we learned to move water",
-      "x": 231,
-      "y": 80,
+      "description": "Where we learn to move water.",
+      "x": 199,
+      "y": 122,
       "icon": {
         "id": "terrafirmacraft:item.Red Steel Bucket Empty"
       },
@@ -841,7 +842,59 @@
           "id": "HardcoreQuesting:hearts"
         }
       ]
+    },
+    {
+      "name": "Ultimate Bucket",
+      "description": "¿Porque no los dos?",
+      "x": 233,
+      "y": 156,
+      "icon": {
+        "id": "minecraft:bucket"
+      },
+      "prerequisites": [
+        "Metal Buckets",
+        "Red Buckets"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Well it is Red + Blue. As you'd expect from the combination of a lava holding and water holding bucket; the Ultimate bucket does some magical things. Picking up liquids with this bucket seems to remove things, be it ions from water or sulfur from lava. (It makes them vanilla liquids). ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bucket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        },
+        {
+          "id": "terrafirmacraft:item.Ore",
+          "damage": 45,
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "terrafirmacraft:item.Ore",
+          "damage": 45,
+          "amount": 8
+        },
+        {
+          "id": "terrafirmacraft:item.coal",
+          "damage": 1,
+          "amount": 64
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
     }
   ],
-  "reputation": []
+  "reputationBar": []
 }
